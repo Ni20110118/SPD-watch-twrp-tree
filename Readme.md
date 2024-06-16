@@ -1,2 +1,2 @@
-这里是一个为华强北手表提供编译twrp需要的device tree的仓库
-若要编译，请在boardconfig.mk文件中删除avb_enable的语句
+Recovery中缺少build.prop文件，读取时信息不完整
+暂时无法提供设备树
