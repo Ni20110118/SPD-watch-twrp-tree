@@ -7,6 +7,6 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifeq ($(TARGET_DEVICE),uws6137_1h10)
+ifeq ($(TARGET_DEVICE),eb12a_v31_wsm_g2p_00_cn_zx_zty_435_256x16b)
 include $(call all-subdir-makefiles,$(LOCAL_PATH))
 endif

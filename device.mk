@@ -5,4 +5,4 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-LOCAL_PATH := device/uws6137_1h10_1g/uws6137_1h10
+LOCAL_PATH := device/g2+/eb12a_v31_wsm_g2p_00_cn_zx_zty_435_256x16b
