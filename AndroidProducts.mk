@@ -6,9 +6,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/omni_sl8541e_1h10.mk
+    $(LOCAL_DIR)/omni_eb12_v30_bdz_s12p_00_zx_zty_435_512x32b.mk
 
 COMMON_LUNCH_CHOICES := \
-    omni_sl8541e_1h10-user \
-    omni_sl8541e_1h10-userdebug \
-    omni_sl8541e_1h10-eng
+    omni_eb12_v30_bdz_s12p_00_zx_zty_435_512x32b-user \
+    omni_eb12_v30_bdz_s12p_00_zx_zty_435_512x32b-userdebug \
+    omni_eb12_v30_bdz_s12p_00_zx_zty_435_512x32b-eng

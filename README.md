@@ -1,4 +1,4 @@
-# Android device tree for SPRD XH011 (sl8541e_1h10)
+# Android device tree for SPRD S12P (eb12_v30_bdz_s12p_00_zx_zty_435_512x32b)
 
 ```
 #
