@@ -1,4 +1,4 @@
-# Android device tree for SPRD DS8 (sl8541e_1h10)
+# Android device tree for SPRD G1+ (eb12_v30_wsm_g1p_00_cn_zx_zty_435_256x16b)
 
 ```
 #
