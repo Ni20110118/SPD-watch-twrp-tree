@@ -1,4 +1,4 @@
-# Android device tree for SPRD G2+ (eb12a_v31_wsm_g2p_00_cn_zx_zty_435_256x16b)
+# Android device tree for SGTC G4CS (G4CS)
 
 ```
 #
