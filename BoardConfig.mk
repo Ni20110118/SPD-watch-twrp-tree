@@ -5,7 +5,7 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-DEVICE_PATH := device/s12p/eb12_v30_bdz_s12p_00_zx_zty_435_512x32b
+DEVICE_PATH := device/s18/eb12_v30_bdz_s18_00_cn_zx_435_256x16b
 
 # For building with minimal manifest
 ALLOW_MISSING_DEPENDENCIES := true
@@ -29,11 +29,11 @@ TARGET_2ND_CPU_VARIANT_RUNTIME := generic
 OVERRIDE_TARGET_FLATTEN_APEX := true
 
 # Bootloader
-TARGET_BOOTLOADER_BOARD_NAME := eb12_v30_bdz_s12p_00_zx_zty_435_512x32b
+TARGET_BOOTLOADER_BOARD_NAME := eb12_v30_bdz_s18_00_cn_zx_435_256x16b
 TARGET_NO_BOOTLOADER := true
 
 # Display
-TARGET_SCREEN_DENSITY := 180
+TARGET_SCREEN_DENSITY := 200
 
 # Kernel
 BOARD_KERNEL_BASE := 0x00000000
@@ -45,8 +45,8 @@ BOARD_MKBOOTIMG_ARGS += --ramdisk_offset $(BOARD_RAMDISK_OFFSET)
 BOARD_MKBOOTIMG_ARGS += --tags_offset $(BOARD_KERNEL_TAGS_OFFSET)
 BOARD_KERNEL_IMAGE_NAME := Image
 BOARD_KERNEL_SEPARATED_DT := true
-TARGET_KERNEL_CONFIG := eb12_v30_bdz_s12p_00_zx_zty_435_512x32b_defconfig
-TARGET_KERNEL_SOURCE := kernel/s12p/eb12_v30_bdz_s12p_00_zx_zty_435_512x32b
+TARGET_KERNEL_CONFIG := eb12_v30_bdz_s18_00_cn_zx_435_256x16b_defconfig
+TARGET_KERNEL_SOURCE := kernel/s18/eb12_v30_bdz_s18_00_cn_zx_435_256x16b
 
 # Kernel - prebuilt
 TARGET_FORCE_PREBUILT_KERNEL := true

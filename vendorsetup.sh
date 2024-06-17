@@ -5,6 +5,6 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-add_lunch_combo omni_eb12_v30_bdz_s12p_00_zx_zty_435_512x32b-user
-add_lunch_combo omni_eb12_v30_bdz_s12p_00_zx_zty_435_512x32b-userdebug
-add_lunch_combo omni_eb12_v30_bdz_s12p_00_zx_zty_435_512x32b-eng
+add_lunch_combo omni_eb12_v30_bdz_s18_00_cn_zx_435_256x16b-user
+add_lunch_combo omni_eb12_v30_bdz_s18_00_cn_zx_435_256x16b-userdebug
+add_lunch_combo omni_eb12_v30_bdz_s18_00_cn_zx_435_256x16b-eng

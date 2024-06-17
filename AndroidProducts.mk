@@ -6,9 +6,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/omni_eb12_v30_bdz_s12p_00_zx_zty_435_512x32b.mk
+    $(LOCAL_DIR)/omni_eb12_v30_bdz_s18_00_cn_zx_435_256x16b.mk
 
 COMMON_LUNCH_CHOICES := \
-    omni_eb12_v30_bdz_s12p_00_zx_zty_435_512x32b-user \
-    omni_eb12_v30_bdz_s12p_00_zx_zty_435_512x32b-userdebug \
-    omni_eb12_v30_bdz_s12p_00_zx_zty_435_512x32b-eng
+    omni_eb12_v30_bdz_s18_00_cn_zx_435_256x16b-user \
+    omni_eb12_v30_bdz_s18_00_cn_zx_435_256x16b-userdebug \
+    omni_eb12_v30_bdz_s18_00_cn_zx_435_256x16b-eng
