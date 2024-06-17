@@ -1,2 +1,1 @@
-这里是一个为华强北手表提供编译twrp需要的device tree的仓库
-若要编译，请在boardconfig.mk文件中删除avb_enable的语句
+同X8，缺少build.prop
