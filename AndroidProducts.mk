@@ -6,9 +6,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/omni_eb12_v30_wsm_g1p_00_cn_zx_zty_435_256x16b.mk
+    $(LOCAL_DIR)/omni_uws6137_1h10.mk
 
 COMMON_LUNCH_CHOICES := \
-    omni_eb12_v30_wsm_g1p_00_cn_zx_zty_435_256x16b-user \
-    omni_eb12_v30_wsm_g1p_00_cn_zx_zty_435_256x16b-userdebug \
-    omni_eb12_v30_wsm_g1p_00_cn_zx_zty_435_256x16b-eng
+    omni_uws6137_1h10-user \
+    omni_uws6137_1h10-userdebug \
+    omni_uws6137_1h10-eng
