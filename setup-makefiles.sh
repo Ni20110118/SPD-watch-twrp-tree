@@ -8,8 +8,8 @@
 
 set -e
 
-DEVICE=ed18c1ac_v31_lm_lm01_80_gb_cn_zx_f4_44_256x16b
-VENDOR=lm01
+DEVICE=sl8541e_1h10
+VENDOR=h10
 
 # Load extract_utils and do some sanity checks
 MY_DIR="${BASH_SOURCE%/*}"

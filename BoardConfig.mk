@@ -5,7 +5,7 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-DEVICE_PATH := device/lm01/ed18c1ac_v31_lm_lm01_80_gb_cn_zx_f4_44_256x16b
+DEVICE_PATH := device/h10/sl8541e_1h10
 
 # For building with minimal manifest
 ALLOW_MISSING_DEPENDENCIES := true
@@ -29,11 +29,11 @@ TARGET_2ND_CPU_VARIANT_RUNTIME := generic
 OVERRIDE_TARGET_FLATTEN_APEX := true
 
 # Bootloader
-TARGET_BOOTLOADER_BOARD_NAME := ed18c1ac_v31_lm_lm01_80_gb_cn_zx_f4_44_256x16b
+TARGET_BOOTLOADER_BOARD_NAME := sl8541e_1h10
 TARGET_NO_BOOTLOADER := true
 
 # Display
-TARGET_SCREEN_DENSITY := 200
+TARGET_SCREEN_DENSITY := 320
 
 # Kernel
 BOARD_KERNEL_BASE := 0x00000000
@@ -45,8 +45,8 @@ BOARD_MKBOOTIMG_ARGS += --ramdisk_offset $(BOARD_RAMDISK_OFFSET)
 BOARD_MKBOOTIMG_ARGS += --tags_offset $(BOARD_KERNEL_TAGS_OFFSET)
 BOARD_KERNEL_IMAGE_NAME := Image
 BOARD_KERNEL_SEPARATED_DT := true
-TARGET_KERNEL_CONFIG := ed18c1ac_v31_lm_lm01_80_gb_cn_zx_f4_44_256x16b_defconfig
-TARGET_KERNEL_SOURCE := kernel/lm01/ed18c1ac_v31_lm_lm01_80_gb_cn_zx_f4_44_256x16b
+TARGET_KERNEL_CONFIG := sl8541e_1h10_defconfig
+TARGET_KERNEL_SOURCE := kernel/h10/sl8541e_1h10
 
 # Kernel - prebuilt
 TARGET_FORCE_PREBUILT_KERNEL := true

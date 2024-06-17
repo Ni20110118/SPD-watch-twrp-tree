@@ -5,4 +5,4 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-LOCAL_PATH := device/lm01/ed18c1ac_v31_lm_lm01_80_gb_cn_zx_f4_44_256x16b
+LOCAL_PATH := device/h10/sl8541e_1h10

@@ -6,9 +6,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/omni_ed18c1ac_v31_lm_lm01_80_gb_cn_zx_f4_44_256x16b.mk
+    $(LOCAL_DIR)/omni_sl8541e_1h10.mk
 
 COMMON_LUNCH_CHOICES := \
-    omni_ed18c1ac_v31_lm_lm01_80_gb_cn_zx_f4_44_256x16b-user \
-    omni_ed18c1ac_v31_lm_lm01_80_gb_cn_zx_f4_44_256x16b-userdebug \
-    omni_ed18c1ac_v31_lm_lm01_80_gb_cn_zx_f4_44_256x16b-eng
+    omni_sl8541e_1h10-user \
+    omni_sl8541e_1h10-userdebug \
+    omni_sl8541e_1h10-eng
