@@ -9,7 +9,7 @@
 set -e
 
 DEVICE=sl8541e_1h10
-VENDOR=gd9
+VENDOR=xh011
 
 # Load extract_utils and do some sanity checks
 MY_DIR="${BASH_SOURCE%/*}"
