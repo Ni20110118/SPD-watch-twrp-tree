@@ -1,4 +1,4 @@
-# Android device tree for SPRD S18 (eb12_v30_bdz_s18_00_cn_zx_435_256x16b)
+# Android device tree for SPRD TK Watch (sl8541e_1h10)
 
 ```
 #
