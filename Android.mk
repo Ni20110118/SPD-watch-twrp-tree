@@ -7,6 +7,6 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifeq ($(TARGET_DEVICE),G4CS)
+ifeq ($(TARGET_DEVICE),sl8541e_1h10)
 include $(call all-subdir-makefiles,$(LOCAL_PATH))
 endif

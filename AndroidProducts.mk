@@ -6,9 +6,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/omni_G4CS.mk
+    $(LOCAL_DIR)/omni_sl8541e_1h10.mk
 
 COMMON_LUNCH_CHOICES := \
-    omni_G4CS-user \
-    omni_G4CS-userdebug \
-    omni_G4CS-eng
+    omni_sl8541e_1h10-user \
+    omni_sl8541e_1h10-userdebug \
+    omni_sl8541e_1h10-eng

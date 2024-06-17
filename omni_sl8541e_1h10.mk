@@ -13,17 +13,17 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, vendor/omni/config/common.mk)
 
 # Inherit from sl8541e_1h10 device
-$(call inherit-product, device/ds8/sl8541e_1h10/device.mk)
+$(call inherit-product, device/gd9/sl8541e_1h10/device.mk)
 
 PRODUCT_DEVICE := sl8541e_1h10
 PRODUCT_NAME := omni_sl8541e_1h10
 PRODUCT_BRAND := SPRD
-PRODUCT_MODEL := DS8
-PRODUCT_MANUFACTURER := ds8
+PRODUCT_MODEL := GD9
+PRODUCT_MANUFACTURER := gd9
 
-PRODUCT_GMS_CLIENTID_BASE := android-ds8
+PRODUCT_GMS_CLIENTID_BASE := android-gd9
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DESC="sl8541e_1h10_oversea-user 8.1.0 OPM2.171019.012 32616 release-keys"
+    PRIVATE_BUILD_DESC="sl8541e_1h10_oversea-user 8.1.0 OPM2.171019.012 01314 release-keys"
 
-BUILD_FINGERPRINT := SPRD/sl8541e/sl8541e:8.1.0/OPM2.171019.012/32616:user/release-keys
+BUILD_FINGERPRINT := SPRD/sl8541e/sl8541e:8.1.0/OPM2.171019.012/01314:user/release-keys

@@ -1,4 +1,4 @@
-# Android device tree for SGTC G4CS (G4CS)
+# Android device tree for SPRD GD9 (sl8541e_1h10)
 
 ```
 #
