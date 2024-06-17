@@ -1,4 +1,4 @@
-# Android device tree for SPRD XH011 (sl8541e_1h10)
+# Android device tree for SPRD G15Pro (sl8541e_1h10)
 
 ```
 #

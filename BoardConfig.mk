@@ -5,7 +5,7 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-DEVICE_PATH := device/xh011/sl8541e_1h10
+DEVICE_PATH := device/g15pro/sl8541e_1h10
 
 # For building with minimal manifest
 ALLOW_MISSING_DEPENDENCIES := true
@@ -46,7 +46,7 @@ BOARD_MKBOOTIMG_ARGS += --tags_offset $(BOARD_KERNEL_TAGS_OFFSET)
 BOARD_KERNEL_IMAGE_NAME := Image
 BOARD_KERNEL_SEPARATED_DT := true
 TARGET_KERNEL_CONFIG := sl8541e_1h10_defconfig
-TARGET_KERNEL_SOURCE := kernel/xh011/sl8541e_1h10
+TARGET_KERNEL_SOURCE := kernel/g15pro/sl8541e_1h10
 
 # Kernel - prebuilt
 TARGET_FORCE_PREBUILT_KERNEL := true
