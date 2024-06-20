@@ -54,3 +54,8 @@ https://github.com/Ni20110118/Auto-Twrp-Builder
 ~~~
 https://github.com/Ni20110118/Action-OFRP-Builder
 ~~~
+
+#### 5.使用GitHub Actions编译橙狐（OFRP）
+~~~
+https://github.com/Ni20110118/Action-OFRP-Builder
+~~~
