@@ -44,3 +44,8 @@ https://github.com/Ni20110118/action_build_twrp_device_tree
 https://github.com/Ni20110118/Lazy_Action-Recoverys-Builder
 ~~~
 实测shrp构建可用
+
+#### 3.使用GitHub Actions一键编译twrp（需要有recovery/boot镜像直连）
+~~~
+https://github.com/Ni20110118/Auto-Twrp-Builder
+~~~
