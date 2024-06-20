@@ -13,4 +13,12 @@ Board_Avb Enable = false或直接删除
 /storage/sdcard0     vfat     /dev/block/platform/soc/soc:ap-ahb/20300000.sdio/mmcblk1p1             flags=display=sdcard0
 ~~~
 语句
-3.为符合手表显示，你可以修改boardconfig.mk中的TW_THEME语句，修改为TW_THEME = watch_mdpi
+3.为符合手表显示，你可以修改boardconfig.mk中的TW_THEME语句。
+将
+~~~
+TW_THEME = xxxxxx
+~~~
+修改为
+~~~
+TW_THEME = watch_mdpi
+~~~
