@@ -14,13 +14,15 @@ Board_Avb Enable = true
 # Board_Avb Enable = true  （注释掉）
 ~~~
 或者
-Board_Avb Enable = false或直接删除
+~~~
+Board_Avb Enable = false
+~~~
+作者有话说：你直接删了也没问题
 ### 编译结束后部分BUG的修复：
-1.若出现sdcard0mb的情况，尝试在recovery.fstab中删除
+1.若出现sdcard0mb的情况，尝试在recovery.fstab中删除下列语句
 ~~~
 /storage/sdcard0     vfat     /dev/block/platform/soc/soc:ap-ahb/20300000.sdio/mmcblk1p1             flags=display=sdcard0
 ~~~
-语句
 3.为符合手表显示，你可以修改boardconfig.mk中的TW_THEME语句。
 将
 ~~~
