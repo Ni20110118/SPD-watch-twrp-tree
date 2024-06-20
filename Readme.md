@@ -6,7 +6,7 @@ Board_System_Image_Size must be set by Board_Avb Enable
 在boardconfig.mk中，找到Board_Avb Enable = true语句，将其改为# Board_Avb Enable或者
 Board_Avb Enable = false或直接删除
 ### 编译结束后部分BUG的修复：
-2.若出现sdcard0mb的情况，尝试在recovery.fstab中删除
+1.若出现sdcard0mb的情况，尝试在recovery.fstab中删除
 /storage/sdcard0     vfat     /dev/block/platform/soc/soc:ap-ahb/20300000.sdio/mmcblk1p1                flags=display=sdcard0
 语句
 3.为符合手表显示，你可以修改boardconfig.mk中的TW_THEME语句，修改为TW_THEME = watch_mdpi
