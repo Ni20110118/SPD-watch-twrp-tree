@@ -49,3 +49,8 @@ https://github.com/Ni20110118/Lazy_Action-Recoverys-Builder
 ~~~
 https://github.com/Ni20110118/Auto-Twrp-Builder
 ~~~
+
+#### 4.使用GitHub Actions编译twrp
+~~~
+https://github.com/Ni20110118/Action-OFRP-Builder
+~~~
