@@ -1,5 +1,5 @@
 # 这里是一个为华强北手表提供编译twrp需要的device tree的仓库
-## 关于那些问题：
+## 以下是目前明确发现的问题
 ### 修复编译过程中build recovery阶段出现的报错
 ~~~
 Board_System_Image_Size must be set by Board_Avb Enable
@@ -33,7 +33,7 @@ TW_THEME = xxxxxx
 TW_THEME = watch_mdpi
 ~~~
 
-### 其他相关网站
+## 其他相关网站
 #### 1.获取twrp设备树（需要拥有直连recovery/boot镜像链接）
 ~~~
 https://github.com/Ni20110118/action_build_twrp_device_tree
