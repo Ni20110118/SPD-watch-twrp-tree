@@ -1,5 +1,5 @@
 # 这里是一个为华强北手表提供编译twrp需要的device tree的仓库
-## 一些提示：
+## 关于那些问题：
 ### 修复编译过程中build recovery阶段出现的报错
 Board_System_Image_Size must be set by Board_Avb Enable
 报错修复方法：
