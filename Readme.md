@@ -32,3 +32,9 @@ TW_THEME = xxxxxx
 ~~~
 TW_THEME = watch_mdpi
 ~~~
+
+### 其他相关网站
+获取twrp设备树（需要拥有直连recovery/boot镜像链接）
+~~~
+https://github.com/Ni20110118/action_build_twrp_device_tree
+~~~
