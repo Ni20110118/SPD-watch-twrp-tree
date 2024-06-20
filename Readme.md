@@ -11,7 +11,7 @@ Board_Avb Enable = true
 ~~~
 将其改为
 ~~~
-# Board_Avb Enable = true  （注释掉）
+# Board_Avb Enable = true 
 ~~~
 或者
 ~~~
