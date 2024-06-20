@@ -5,7 +5,11 @@
 Board_System_Image_Size must be set by Board_Avb Enable
 ~~~
 #### 报错修复方法：
-在boardconfig.mk中，找到Board_Avb Enable = true语句，将其改为# Board_Avb Enable或者
+在boardconfig.mk中，找到
+~~~
+Board_Avb Enable = true
+~~~
+语句，将其改为# Board_Avb Enable或者
 Board_Avb Enable = false或直接删除
 ### 编译结束后部分BUG的修复：
 1.若出现sdcard0mb的情况，尝试在recovery.fstab中删除
