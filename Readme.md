@@ -65,7 +65,12 @@ https://github.com/Ni20110118/Action-OFRP-Builder
 https://www.hovatek.com/twrpbuilder/#
 ~~~
 
-#### 7.编译完成BUG修复参照（1）
+#### 7.编译完成BUG修复参照 ---1
 ~~~
 https://blog.mocn.top/posts/fa842843/
+~~~
+
+#### 8.编译完成BUG修复参照 ---2
+~~~
+http://voycn.com/article/ruhebianyizijidetwrpfanyiziguanfangwendang
 ~~~
