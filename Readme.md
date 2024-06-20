@@ -59,3 +59,8 @@ https://github.com/Ni20110118/Action-OFRP-Builder
 ~~~
 https://github.com/Ni20110118/Action-OFRP-Builder
 ~~~
+
+#### 6.第三方twrp一键构建（hovatek）
+~~~
+https://www.hovatek.com/twrpbuilder/#
+~~~
