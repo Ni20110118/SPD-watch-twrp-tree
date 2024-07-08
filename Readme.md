@@ -39,6 +39,11 @@ TW_THEME = watch_mdpi
 # Inherit from our custom product configuration
 $(call inherit-product, vendor/pb/config/common.mk)
 ~~~
+并删除
+~~~
+# Inherit some common Omni stuff.
+$(call inherit-product, vendor/omni/config/common.mk)
+~~~
 ## 其他相关网站
 #### 1.获取twrp设备树（需要拥有直连recovery/boot镜像链接）
 ~~~
