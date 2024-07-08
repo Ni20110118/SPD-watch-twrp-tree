@@ -10,7 +10,10 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Inherit some common Omni stuff.
-$(call inherit-product, vendor/omni/config/common.mk)
+# $(call inherit-product, vendor/omni/config/common.mk)
+
+# Inherit from our custom product configuration
+$(call inherit-product, vendor/pb/config/common.mk)
 
 # Inherit from eb12_v30_bdz_s16_00_cn_zx_435_256x16b device
 $(call inherit-product, device/s16/eb12_v30_bdz_s16_00_cn_zx_435_256x16b/device.mk)
