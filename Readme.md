@@ -33,6 +33,12 @@ TW_THEME = xxxxxx
 TW_THEME = watch_mdpi
 ~~~
 
+4.如果你想为自己的设备编译PBRP
+请在omni_xxxxxxx.mk中添加
+~~~
+# Inherit from our custom product configuration
+$(call inherit-product, vendor/pb/config/common.mk)
+~~~
 ## 其他相关网站
 #### 1.获取twrp设备树（需要拥有直连recovery/boot镜像链接）
 ~~~
