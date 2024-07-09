@@ -11,4 +11,4 @@ PRODUCT_MAKEFILES := \
 COMMON_LUNCH_CHOICES := \
     omni_CD10-user \
     omni_CD10-userdebug \
-    omni_eb12_v30_bdz_s18_00_cn_zx_435_256x16b-eng
+    omni_CD10-eng \
