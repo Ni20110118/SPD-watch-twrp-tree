@@ -6,9 +6,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/omni_eb12_v30_bdz_s18_00_cn_zx_435_256x16b.mk
+    $(LOCAL_DIR)/omni_CD10.mk
 
 COMMON_LUNCH_CHOICES := \
-    omni_eb12_v30_bdz_s18_00_cn_zx_435_256x16b-user \
-    omni_eb12_v30_bdz_s18_00_cn_zx_435_256x16b-userdebug \
+    omni_CD10-user \
+    omni_CD10-userdebug \
     omni_eb12_v30_bdz_s18_00_cn_zx_435_256x16b-eng
