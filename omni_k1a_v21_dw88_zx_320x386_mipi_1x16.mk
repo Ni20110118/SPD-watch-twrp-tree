@@ -14,8 +14,8 @@ $(call inherit-product, vendor/omni/config/common.mk)
 # Inherit from sl8541e_1h10_go device
 $(call inherit-product, device/tk/sl8541e_1h10_go/device.mk)
 
-PRODUCT_DEVICE := sl8541e_1h10_go
-PRODUCT_NAME := omni_sl8541e_1h10_go
+PRODUCT_DEVICE := k1a_v21_dw88_zx_320x386_mipi_1x16
+PRODUCT_NAME := omni_k1a_v21_dw88_zx_320x386_mipi_1x16
 PRODUCT_BRAND := SPRD
 PRODUCT_MODEL := TK Watch
 PRODUCT_MANUFACTURER := tk
