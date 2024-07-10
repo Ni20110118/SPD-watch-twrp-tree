@@ -12,7 +12,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, vendor/omni/config/common.mk)
 
 # Inherit from sl8541e_1h10_go device
-$(call inherit-product, device/tk/sl8541e_1h10_go/device.mk)
+$(call inherit-product, device/tk/k1a_v21_dw88_zx_320x386_mipi_1x16/device.mk)
 
 PRODUCT_DEVICE := k1a_v21_dw88_zx_320x386_mipi_1x16
 PRODUCT_NAME := omni_k1a_v21_dw88_zx_320x386_mipi_1x16
