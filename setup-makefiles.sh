@@ -9,7 +9,7 @@
 set -e
 
 DEVICE=k1a_v21_dw88_zx_320x386_mipi_1x16
-VENDOR=dw88
+VENDOR=tk
 
 # Load extract_utils and do some sanity checks
 MY_DIR="${BASH_SOURCE%/*}"
