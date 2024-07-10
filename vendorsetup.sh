@@ -5,6 +5,6 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-add_lunch_combo omni_k1a_v21_dw88_zx_320x386_mipi_1x16-user
-add_lunch_combo omni_k1a_v21_dw88_zx_320x386_mipi_1x16-userdebug
-add_lunch_combo omni_k1a_v21_dw88_zx_320x386_mipi_1x16-eng
+add_lunch_combo omni_sl8541e_1h10-user
+add_lunch_combo omni_sl8541e_1h10-userdebug
+add_lunch_combo omni_sl8541e_1h10-eng

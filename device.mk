@@ -5,4 +5,4 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-LOCAL_PATH := device/tk/k1a_v21_dw88_zx_320x386_mipi_1x16
+LOCAL_PATH := device/tk/sl8541e_1h10

@@ -6,9 +6,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/k1a_v21_dw88_zx_320x386_mipi_1x16.mk
+    $(LOCAL_DIR)/omni_sl8541e_1h10.mk
 
 COMMON_LUNCH_CHOICES := \
-    omni_k1a_v21_dw88_zx_320x386_mipi_1x16-user \
-    omni_k1a_v21_dw88_zx_320x386_mipi_1x16-userdebug \
-    omni_k1a_v21_dw88_zx_320x386_mipi_1x16-eng
+    omni_sl8541e_1h10-user \
+    omni_sl8541e_1h10-userdebug \
+    omni_sl8541e_1h10-eng

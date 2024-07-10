@@ -1,4 +1,4 @@
-# Android device tree for SPRD TK Watch (k1a_v21_dw88_zx_320x386_mipi_1x16)
+# Android device tree for SPRD TK Watch (sl8541e_1h10)
 
 ```
 #
