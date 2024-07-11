@@ -1,6 +1,6 @@
 # 这里是一个为华强北手表提供编译twrp需要的device tree的仓库
 ## 以下是目前明确发现的问题
-### PS:jc02p-1是高分辨率屏幕版本，jc02p-2是低分辨率版本
+### PS:jc02p-1是高分辨率屏幕版本，jc02p-2是低分辨率版本（jc02同）
 ### 修复编译过程中build recovery阶段出现的报错
 ~~~
 Board_System_Image_Size must be set by Board_Avb Enable
