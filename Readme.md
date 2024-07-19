@@ -24,7 +24,7 @@ Board_Avb Enable = false
 ~~~
 /storage/sdcard0     vfat     /dev/block/platform/soc/soc:ap-ahb/20300000.sdio/mmcblk1p1             flags=display=sdcard0
 ~~~
-3.为符合手表显示，你可以修改boardconfig.mk中的TW_THEME语句。
+2.为符合手表显示，你可以修改boardconfig.mk中的TW_THEME语句。
 将
 ~~~
 TW_THEME = xxxxxx
@@ -34,7 +34,7 @@ TW_THEME = xxxxxx
 TW_THEME = watch_mdpi
 ~~~
 
-4.如果你想为自己的设备编译PBRP
+3.如果你想为自己的设备编译PBRP
 请在omni_xxxxxxx.mk中添加
 ~~~
 # Inherit from our custom product configuration
